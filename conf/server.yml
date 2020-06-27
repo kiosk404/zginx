@@ -1,0 +1,14 @@
+tcp:
+  host: "127.0.0.1"
+  version: "tcp4"
+  port: 5000
+  maxpacketsize: 1024
+  maxconn: 2
+server:
+  name: "Zginx"
+  version: "v0.2"
+  workerpoolsize: 8
+  maxworkertasklen: 1024
+log:
+  logfilepath: ""
+  debugMode: False
